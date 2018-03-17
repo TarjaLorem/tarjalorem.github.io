@@ -1,0 +1,77 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css");
+
+body {
+   background-image: url("../img/woods.jpg");
+}
+
+header {
+    margin-top: 20px;
+    font-family: Helvetica, sans-serif;
+}
+
+
+.nav-menu {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu ul, .nav-menu ol {
+    list-style: none;
+}
+
+.nav-menu > ul {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nav-menu > ul li a {
+    display: block;
+    background: #fff;
+    padding: 15px 30px;
+    font-size: 20px;
+    color: #303030;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+}
+
+.nav-menu > ul li {
+     position: relative;
+    
+     
+}
+
+.nav-menu > ul li > a i.fa {
+    position: absolute;
+    top: 18px;
+    left: 8px;
+    font-size: 18px;
+    
+}
+
+.nav-menu li a:hover {
+    background: #303030;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+/* sub menu*/
+
+.sub {
+    
+}
+
+.nav-menu li ul {
+    position: absolute;
+    display: none;
+    background: #303030;
+    color: #fff;
+    padding: 0px;
+    border-bottom: 2px;
+    border-bottom-color: black;
+}
+
+.nav-menu li:hover > ul {
+    display: block;
+}
