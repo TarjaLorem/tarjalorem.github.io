@@ -102,9 +102,6 @@ body {
 
 /* sub menu*/
 
-.sub {
-    
-}
 
 .nav-menu li ul {
     position: absolute;
@@ -118,4 +115,84 @@ body {
 
 .nav-menu li:hover > ul {
     display: block;
+}
+
+
+@media screen and (max-width: 480px) {
+    
+    ul {
+        width: 100%;
+    }
+    
+    
+    body {
+   background-image: url("../img/wood.jpg");
+}
+
+
+.header {
+    width: 100%;
+    background-color: #fff;
+    height: 20%;
+}
+
+
+.nav-menu > ul {
+    display: flex;
+     width: 100%;
+    margin: 0 auto;
+
+    
+}
+
+.nav-menu > ul li a {
+    display: block;
+    background: #fff;
+    padding: 15px 34px;
+    font-size: 20px;
+    font-family: Arial;
+    color: #303030;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+}
+
+.nav-menu > ul li {
+     position: relative;
+    
+     
+}
+
+.nav-menu > ul li > a i.fa {
+    position: absolute;
+    top: 14px;
+    left: 8px;
+    font-size: 22px;
+    
+}
+
+.nav-menu li a:hover {
+    background: #303030;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+/* sub menu*/
+
+
+.nav-menu li ul {
+    position: absolute;
+    display: none;
+    background: #303030;
+    color: #fff;
+    padding: 0px;
+    border-bottom: 2px;
+    border-bottom-color: black;
+}
+
+.nav-menu li:hover > ul {
+    display: block;
+}
+
+    
 }
