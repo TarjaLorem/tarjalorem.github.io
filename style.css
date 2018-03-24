@@ -16,7 +16,7 @@
 }
 
 body {
-    background: #E9E9E9;
+    background: #E2DEDE;
 
 }
 
@@ -303,12 +303,14 @@ body {
     margin-top: 5px;
     border-color: #403E5F; 
     border-width: 1px;
+    display: flex;
 }
 
 .first-container-label {
     color: #fff;
     font-size: 13px;
     font-family: Tahoma;
+    display: inline-block;
 }
 
 .first-container-form {
@@ -348,6 +350,7 @@ body {
     margin-bottom: 5px;
     border-color: #403E5F; 
     border-width: 1px;
+    display: flex;
 }
 
 .forgot {
@@ -355,18 +358,19 @@ body {
     color: #A19BF5;
     font-family: Tahoma;
     font-size: 13px;
+    float: right;
+    margin-right: 113px;
 }
 
 .log-in-button{
     display: inline-block;
-    vertical-align: top;
-    margin-top: 22px;
     width: 50px;
     height: 22px;
     background: #596DAF;
     border: 0;
     border-radius: 2px;
     border: solid #453F98 1px;
+    display: inline-block
 }
 
 .log-in-href {
