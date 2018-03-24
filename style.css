@@ -374,13 +374,13 @@
     border: 0;
     border-radius: 2px;
     border: solid #453F98 1px;
+    color: #fff;
+    font-family: Tahoma;
+    font-size: 13px;
     display: inline-block
 }
 
 .log-in-href {
-    color: #fff;
-    font-family: Tahoma;
-    font-size: 13px;
     text-decoration: none;
 }
 
@@ -449,13 +449,13 @@
     border-radius: 3px;
     border: solid #453F98 1px;
     background: #596DAF;
+    color: #fff;
+    font-family: Tahoma;
+    font-size: 13px;
     
 }
 
 .search-button-href {
-    color: #fff;
-    font-family: Tahoma;
-    font-size: 13px;
     text-decoration: none;
 }
 
@@ -466,6 +466,9 @@
     border-radius: 3px;
     border: solid #C1C0C7 1px; 
     background: #F3F4F9;
+    color: #48484A;
+    font-family: Tahoma;
+    font-size: 13px;
 }
 
 .cancel-button:hover {
@@ -478,12 +481,7 @@
 }
 
 .cancel-button-href {
-    color: #48484A;
-    font-family: Tahoma;
-    font-size: 13px;
     text-decoration: none;
-    
-    
 }
 
 li {
