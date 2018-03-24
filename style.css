@@ -15,9 +15,13 @@
     
 }
 
-body {
-    background: #E2DEDE;
+.background-sign {
+    background: #E5E0E0;
 
+}
+
+.background {
+    background: #B6B6B6;
 }
 
 .logo {
